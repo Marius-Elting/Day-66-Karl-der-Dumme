@@ -1,0 +1,114 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    background-color: rgb(47, 47, 47);
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
+    ;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+header nav li {
+    list-style: none;
+
+}
+
+.CenterInformation {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
+.CenterInformation figure {
+    width: 60%;
+}
+
+.CenterInformation figure img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.CenterInformation article {
+    width: 40%;
+
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.CenterInformation article h1 {
+    font-size: 40px;
+}
+
+.CenterInformation article p {
+    font-size: 20px;
+}
+
+
+
+/* ???????? */
+
+.AboutMain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.AboutMain .wrapperSection figure {
+    height: 50%;
+}
+
+.AboutMain .wrapperSection figure a {
+    height: 30px;
+}
+
+.AboutMain .wrapperSection {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding: 10px;
+}
+
+
+figure {
+    width: 300px;
+}
+
+figure img {
+    width: 100%;
+}
+
+.InsiderMain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
